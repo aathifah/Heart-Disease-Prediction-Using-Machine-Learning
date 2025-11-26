@@ -1,0 +1,11 @@
+Preprocessing Data dan Reduksi Dimensi untuk Dataset Penyakit Jantung menggunakan PCA
+
+Analisis:
+
+Preprocessing: Dilakukan handling missing values dengan dropna() dan standardisasi fitur menggunakan StandardScaler
+
+PCA Implementation: Menggunakan Principal Component Analysis untuk reduksi dimensi dari dataset asli
+
+Scree Plot Analysis: Berdasarkan scree plot, dipilih 9 komponen utama yang dapat merepresentasikan varians dataset secara signifikan
+
+Feature Retention: PCA berhasil mereduksi dimensi sambil mempertahankan fitur-fitur penting yang berkontribusi terhadap varians data
