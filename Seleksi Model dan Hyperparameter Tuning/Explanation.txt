@@ -1,0 +1,14 @@
+Implementasi Sistem Prediksi Penyakit Jantung dengan Decision Tree
+
+Analisis:
+
+Model Deployment: Mengimplementasikan model Decision Tree yang telah dilatih ke dalam fungsi prediksi
+
+Feature Engineering: Menggunakan 9 fitur hasil PCA reduction:
+
+ca, thal, trestbps, oldpeak, slope, restecg, exang, chol, fbs
+
+Prediction Function: Membuat fungsi predict_heart_disease() yang dapat menerima input dan menghasilkan prediksi
+
+Result: Untuk input sample yang diberikan, model memprediksi "Yes Heart Disease"
+
