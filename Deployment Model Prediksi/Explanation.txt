@@ -1,0 +1,19 @@
+Evaluasi dan Optimasi Model Klasifikasi untuk Prediksi Penyakit Jantung
+
+Analisis:
+
+Model Comparison: Membandingkan 4 model berbeda:
+
+Logistic Regression (Accuracy: 0.80)
+
+Decision Tree (Accuracy: 1.00) ← Best Model
+
+Random Forest (Accuracy: 0.99)
+
+Neural Network (Accuracy: 0.84)
+
+Performance Metrics: Menggunakan accuracy, precision, dan recall untuk evaluasi komprehensif
+
+Hyperparameter Tuning: GridSearchCV pada Logistic Regression dengan parameter C dan penalty
+
+Findings: Decision Tree menunjukkan performa sempurna (mungkin indikasi overfitting), sementara Logistic Regression menghasilkan accuracy 80% setelah tuning
